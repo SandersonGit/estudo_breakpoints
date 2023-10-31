@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+    max-width: 33%;
+    float: left;
+}
+
+li img {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    li {
+        max-width: 100%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 640px) {
+    body {
+        background-color: red;
+    }
+}
